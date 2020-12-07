@@ -183,6 +183,9 @@ return [
 
         Salman\Mqtt\MqttServiceProvider::class,
 
+        App\Providers\PermissionsServiceProvider::class,
+
+
     ],
 
     /*

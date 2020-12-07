@@ -62,3 +62,6 @@ Route::get('/messages',[App\Http\Controllers\MessageController::class, 'display'
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+
+Route::get('/roles', [App\Http\Controllers\PermissionController::class, 'permission']);
